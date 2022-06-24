@@ -22,9 +22,8 @@ if len(original) >= 0 and original.isalpha():
     new_word = word + first + PIG
 
     new_word = new_word[1:len(new_word)]
+    print(new_word)
 
 # print out a message to let the user know they've entered an usuable string
 else:
     print("Empty string")
-
-print(new_word)
